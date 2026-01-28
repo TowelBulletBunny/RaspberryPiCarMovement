@@ -95,31 +95,19 @@ def stop():
     
 
 try:
-    
-    print("Turn Right")
-    turn_right_smooth(70,40)
-    sleep(5)
-    stop()
 
+    #move forward
     print("Forward")
-    turn_right_smooth(70)
+    forward(70)
     sleep(1)
     stop()
 
+    #move backward
     print("Backward")
     turn_right_smooth(70)
     sleep(1)
     stop()
-    
-    print("Rotate Right")
-    sharp_turn_right(70)
-    sleep(1)
-    stop()
 
-    print("Rotate Left")
-    sharp_turn_left(70)
-    sleep(1)
-    stop()
 
 
 finally:
